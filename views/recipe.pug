@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= name
+  ul 
+    each val, index in ins
+      li: val
+  ul 
+    each val, index in ing
+      li: val
